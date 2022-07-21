@@ -7,7 +7,7 @@ import Todo from './components/todo/todo';
 import TodoList from './components/todoList/todoList';
 
 export default function App() {
-  const todos = ['alisverise cik', 'yemek ye'];
+  const todos = ['alisverise cik', 'yemek ye', 'donedonedone'];
 
   return (
     <Layout>

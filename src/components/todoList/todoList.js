@@ -4,7 +4,7 @@ import Todo from '../todo/todo';
 
 export default function TodoList({todos}) {
   console.log({todos});
-  const renderTodo = ({todo}) => <Todo text={todo} />;
+  const renderTodo = ({item}) => <Todo text={item} />;
 
   return <FlatList data={todos} renderItem={renderTodo} />;
 }
