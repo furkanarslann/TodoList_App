@@ -15,11 +15,18 @@ const styles = StyleSheet.create({
     borderColor: '#808080',
     color: 'white',
   },
-  button: {
+  button_disabled: {
     width: '90%',
     marginTop: 10,
     padding: 15,
     backgroundColor: '#808080',
+    borderRadius: 15,
+  },
+  button_active: {
+    width: '90%',
+    marginTop: 10,
+    padding: 15,
+    backgroundColor: '#FBA501',
     borderRadius: 15,
   },
   text: {

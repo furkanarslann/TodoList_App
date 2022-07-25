@@ -1,12 +1,13 @@
 import {View, Text} from 'react-native';
-import React from 'react';
+import React, {useState} from 'react';
 import styles from '../header/header.style';
 
-export default function Header() {
+export default function Header({number}) {
+ 
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Yapılacaklar</Text>
-      <Text style={styles.number}>0</Text>
+      <Text style={styles.number}>{number}</Text>
     </View>
   );
 }
